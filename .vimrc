@@ -1,4 +1,3 @@
-execute pathogen#infect()
 
 " ----------------------------------  General
 syntax on                           " Show syntax highlighting
@@ -26,7 +25,6 @@ set noshiftround
 filetype indent on
 
 " ----------------------------------  Editing code
-let g:syntastic_html_checkers = []  " Don't try to validate html
 set suffixes+=.pyc,.pyo             " Ignore compuled Python
 set wildignore+=*.pyc,*.pyo
 set suffixes+=.class                " Ignore Java class files
